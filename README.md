@@ -105,6 +105,12 @@ Here are the available scripts for this project:
   npm start
   ```
 
+- Start the json server:
+
+  ```bash
+  npx json-server --watch db.json --port 3001
+  ```
+
 - Build the project:
 
   ```bash
