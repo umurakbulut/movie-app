@@ -1,0 +1,40 @@
+@import "@/styles/_variables";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: $spacing-3;
+
+  .search-bar-wrapper {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-start;
+
+    .search-bar {
+      width: 75%;
+    }
+
+    @media (min-width: 500px) {
+      justify-content: center;
+
+      .search-bar {
+        width: 50%;
+      }
+    }
+  }
+
+  .custom-button {
+    width: auto;
+    border: none;
+    color: $color-error;
+
+    position: absolute;
+    right: $spacing-3;
+    top: $spacing-3;
+
+    &:hover {
+      background: none;
+    }
+  }
+}

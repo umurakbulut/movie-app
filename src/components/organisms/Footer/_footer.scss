@@ -1,0 +1,40 @@
+@import "@/styles/_variables";
+
+.footer {
+  text-align: center;
+  padding: $spacing-3;
+  color: $color-black;
+
+  &__social-media {
+    display: flex;
+    justify-content: center;
+    gap: $spacing-4;
+    margin-bottom: $spacing-3;
+
+    .custom-link {
+      transition: color 0.3s ease;
+
+      i {
+        font-size: $fs-24;
+      }
+    }
+  }
+
+  &__links {
+    display: flex;
+    justify-content: center;
+    gap: $spacing-3;
+    margin-bottom: $spacing-3;
+
+    .custom-link {
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  &__copyright {
+    font-size: $fs-12;
+    color: $color-gray;
+  }
+}

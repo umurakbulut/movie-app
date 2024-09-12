@@ -1,0 +1,38 @@
+@import "@/styles/_variables";
+
+.typography {
+  color: $color-black;
+
+  &.secondary {
+    color: $color-gray-secondary;
+  }
+
+  &.bold {
+    font-weight: bold;
+  }
+
+  &.small {
+    font-size: $fs-12;
+    line-height: $fs-16;
+  }
+
+  &.medium {
+    font-size: $fs-16;
+    line-height: $fs-24;
+  }
+
+  &.large {
+    font-size: $fs-24;
+    line-height: $fs-36;
+  }
+
+  &.center {
+    text-align: center;
+  }
+
+  &.error {
+    color: $color-error;
+    margin-top: $spacing-1;
+    margin-left: $spacing-1;
+  }
+}

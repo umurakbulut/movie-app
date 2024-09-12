@@ -1,0 +1,19 @@
+@import "@/styles/_variables";
+
+.custom-input {
+  width: 100%;
+  height: $height-medium;
+  padding: 0 $spacing-2;
+  border: 1px solid $color-gray;
+  border-radius: $border-radius-1;
+  box-sizing: border-box;
+  font-family: inherit;
+
+  &::placeholder {
+    color: $color-black;
+  }
+
+  &.small {
+    height: $height-small;
+  }
+}

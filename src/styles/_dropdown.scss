@@ -1,0 +1,68 @@
+@import "@/styles/_variables";
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+  &__button {
+    background: none;
+    border: none;
+    color: $color-blue-secondary;
+    display: flex;
+    align-items: center;
+    gap: $spacing-2;
+    cursor: pointer;
+  }
+
+  &__icon {
+    font-size: $fs-16;
+  }
+
+  .custom-button {
+    border: none;
+    color: $color-blue-secondary;
+
+    &:hover {
+      background-color: unset;
+      color: $color-blue;
+    }
+
+    i {
+      margin-left: $spacing-1;
+    }
+  }
+
+  &__menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: $color-blue-light;
+    border-radius: $border-radius-1;
+    border: 1px solid $color-blue-secondary;
+    z-index: 1000;
+    width: 130px;
+    padding: $spacing-1 0;
+  }
+
+  &__item {
+    padding: $spacing-2;
+    color: black;
+    cursor: pointer;
+    text-align: left;
+
+    &:hover,
+    &.active {
+      background-color: #bae6fd;
+    }
+  }
+
+  &__badge {
+    background-color: $color-purple;
+    width: $spacing-2;
+    height: $spacing-2;
+    border-radius: 50%;
+    position: absolute;
+    top: $spacing-1;
+    right: $spacing-1;
+  }
+}

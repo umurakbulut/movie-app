@@ -1,0 +1,15 @@
+@import "@/styles/_variables";
+
+.movie-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: $spacing-4;
+  padding: $spacing-3;
+
+  &--not-found {
+    height: calc(100vh - 200px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

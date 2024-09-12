@@ -1,0 +1,38 @@
+@import "@/styles/_variables";
+
+.custom-button {
+  width: 100%;
+  height: $height-medium;
+  padding: $spacing-2;
+  background-color: $color-white;
+  color: $color-blue;
+  border: 1px solid $color-blue;
+  border-radius: $border-radius-1;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: $color-blue;
+    color: $color-white;
+  }
+
+  &:active {
+    top: 1px;
+  }
+
+  &:disabled {
+    background-color: $color-gray-secondary;
+    color: $color-white;
+    border-color: $color-gray-secondary;
+    cursor: not-allowed;
+
+    &:active {
+      top: 0;
+    }
+  }
+
+  &.small {
+    height: $height-small;
+  }
+}

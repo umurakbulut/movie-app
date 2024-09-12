@@ -1,0 +1,7 @@
+@import "@/styles/_variables";
+
+.filter-area {
+  display: flex;
+  justify-content: space-between;
+  padding: $spacing-3;
+}

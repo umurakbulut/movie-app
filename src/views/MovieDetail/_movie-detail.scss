@@ -1,0 +1,35 @@
+@import "@/styles/_variables";
+
+.movie-detail {
+  padding: $spacing-4;
+
+  &__cover {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+    margin: $spacing-4 0;
+
+    i {
+      position: absolute;
+      top: $spacing-2;
+      right: $spacing-2;
+      color: $color-white;
+      background-color: $color-gray-secondary;
+      border-radius: 100%;
+      padding: $spacing-2;
+      cursor: pointer;
+
+      &:hover {
+        background-color: $color-gray;
+      }
+    }
+  }
+
+  &__info {
+    padding-bottom: $spacing-4;
+    margin-bottom: $spacing-4;
+    border-bottom: 1px solid $color-gray;
+  }
+}

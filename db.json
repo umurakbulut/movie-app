@@ -1,0 +1,108 @@
+{
+  "movies": [
+    {
+      "id": "1",
+      "name": "Stranger Things",
+      "cover": "https://m.media-amazon.com/images/M/MV5BMDZkYmVhNjMtNWU4MC00MDQxLWE3MjYtZGMzZWI1ZjhlOWJmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg",
+      "category": "Action, Adventure, Horror",
+      "imdbRating": "86.0",
+      "country": "USA",
+      "year": "2016",
+      "isTvSeries": true,
+      "summary": "Stranger Things is an American television series created by the Duffer Brothers for Netflix. Produced by Monkey Massacre Productions and 21 Laps Entertainment, the first season was released on Netflix on July 15, 2016. The second and third seasons followed in October 2017 and July 2019, respectively, and the fourth season was released in two parts in May and July 2022. The fifth and final season of Stranger Things is expected to be released in 2025. The show is known for its likeable cast of characters, plot, nostalgic tones, and mix of the horror, drama, science-fiction, mystery, and coming-of-age genres.",
+      "addedDate": "2021-06-10",
+      "bigCover": "https://occ-0-8407-116.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABXdoFBGXx_gQywX64x9I5gEetMlsMB-wM_vZC4VBpdoqOxNZQxTi-foCgZ_kGXllVTLiZeTPpHuD9UkvR9frMUdFRHKxVrAYUMuS.jpg?r=b45"
+    },
+    {
+      "id": "2",
+      "name": "Batman Begins",
+      "cover": "https://m.media-amazon.com/images/M/MV5BOTY4YjI2N2MtYmFlMC00ZjcyLTg3YjEtMDQyM2ZjYzQ5YWFkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+      "category": "Action, Adventure",
+      "imdbRating": "82.0",
+      "country": "USA",
+      "year": 2005,
+      "isTvSeries": false,
+      "summary": "After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from corruption.",
+      "addedDate": "2021-07-05",
+      "bigCover": "https://images.hdqwalls.com/wallpapers/batman-begins-4k-poster-0k.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Spider-Man: Into The Spider Verse",
+      "cover": "https://m.media-amazon.com/images/M/MV5BMjMwNDkxMTgzOF5BMl5BanBnXkFtZTgwNTkwNTQ3NjM@._V1_FMjpg_UX1000_.jpg",
+      "category": "Animation, Action, Adventure",
+      "imdbRating": "84.0",
+      "country": "USA",
+      "year": 2018,
+      "isTvSeries": false,
+      "summary": "Teen Miles Morales becomes Spider-Man of his reality, crossing paths with five counterparts from other dimensions.",
+      "addedDate": "2024-08-25",
+      "bigCover": "https://wallpapers.com/images/hd/into-the-spider-verse-4k-b0h3qz9g5bilrk5o.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Dunkirk",
+      "cover": "https://m.media-amazon.com/images/M/MV5BN2YyZjQ0NTEtNzU5MS00NGZkLTg0MTEtYzJmMWY3MWRhZjM2XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_.jpg",
+      "category": "Action, Drama, History",
+      "imdbRating": "78.0",
+      "country": "USA",
+      "year": 2017,
+      "isTvSeries": false,
+      "summary": "Allied soldiers from Belgium, the British Empire, and France are surrounded by the German Army and evacuated during a fierce battle in World War II.",
+      "addedDate": "2024-09-01",
+      "bigCover": "https://images2.static-bluray.com/reviews/16307_1_large.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Dune",
+      "cover": "https://m.media-amazon.com/images/M/MV5BMDQ0NjgyN2YtNWViNS00YjA3LTkxNDktYzFkZTExZGMxZDkxXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_FMjpg_UX1000_.jpg",
+      "category": "Action, Adventure, Drama",
+      "imdbRating": "84.0",
+      "country": "USA",
+      "year": 2021,
+      "isTvSeries": false,
+      "summary": "A noble family becomes embroiled in a war for control over the galaxy's most valuable asset while its heir becomes troubled by visions of a dark future.",
+      "addedDate": "2021-10-22",
+      "bigCover": "https://images.hdqwalls.com/download/dune-movie-4k-dk-1280x720.jpg"
+    },
+    {
+      "id": "6",
+      "name": "No Time To Die",
+      "cover": "https://m.media-amazon.com/images/M/MV5BYWQ2NzQ1NjktMzNkNS00MGY1LTgwMmMtYTllYTI5YzNmMmE0XkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_.jpg",
+      "category": "Action, Adventure, Thriller",
+      "imdbRating": "78.0",
+      "country": "USA",
+      "year": 2021,
+      "isTvSeries": false,
+      "summary": "James Bond has left active service. His peace is short-lived when Felix Leiter, an old friend from the CIA, turns up asking for help.",
+      "addedDate": "2024-08-15",
+      "bigCover": "https://www.hdwallpapers.in/download/daniel_craig_hd_no_time_to_die_2-1280x720.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Shang-Chi and the Legend of the Ten Rings",
+      "cover": "https://m.media-amazon.com/images/M/MV5BNTliYjlkNDQtMjFlNS00NjgzLWFmMWEtYmM2Mzc2Zjg3ZjEyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+      "category": "Action, Adventure, Fantasy",
+      "imdbRating": "79.0",
+      "country": "USA",
+      "year": 2021,
+      "isTvSeries": false,
+      "summary": "Shang-Chi, the master of weaponry-based Kung Fu, is forced to confront his past after being drawn into the Ten Rings organization.",
+      "addedDate": "2024-08-30",
+      "bigCover": "https://gtwallpaper.org/sites/default/files/wallpaper/208360/marvel-shang-chi-hd-movie-wallpapers-208360-2188276-8121306.png"
+    },
+    {
+      "id": "8",
+      "name": "Don't Breathe 2",
+      "cover": "https://m.media-amazon.com/images/M/MV5BY2I3ZDliNWYtZTY0Ny00NTE4LThlZWMtMTJjOTYyYTkwNmRhXkEyXkFqcGc@._V1_.jpg",
+      "category": "Action, Drama, Horror",
+      "imdbRating": "61.0",
+      "country": "USA",
+      "year": 2021,
+      "isTvSeries": false,
+      "summary": "The sequel is set in the years following the initial deadly home invasion, where Norman Nordstrom lives in quiet solace until his past sins catch up to him.",
+      "addedDate": "2021-12-01",
+      "bigCover": "https://image.tmdb.org/t/p/original/3582pr2qoByITkgshOt09v21qku.jpg"
+    }
+  ]
+}

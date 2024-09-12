@@ -1,0 +1,12 @@
+@import "@/styles/_variables";
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-3;
+  width: 50%;
+  max-width: 500px;
+  padding: $spacing-4;
+  border: 1px solid $color-gray;
+  border-radius: $border-radius-1;
+}
