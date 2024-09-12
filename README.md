@@ -40,6 +40,12 @@ To set up the project locally, follow these steps:
    npm start
    ```
 
+5. Start the json server:
+
+   ```bash
+   npx json-server --watch db.json --port 3001
+   ```
+
 ## Usage
 
 Once the app is running, you can:
@@ -103,12 +109,6 @@ Here are the available scripts for this project:
 
   ```bash
   npm start
-  ```
-
-- Start the json server:
-
-  ```bash
-  npx json-server --watch db.json --port 3001
   ```
 
 - Build the project:
